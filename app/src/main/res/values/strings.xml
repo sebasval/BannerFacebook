@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">BannerFacebook</string>
     <string name="facebook_app_id">278282372630429</string>
+    <string name="banner_id">ca-app-pub-8710722469413173/2338589242</string>
 </resources>
