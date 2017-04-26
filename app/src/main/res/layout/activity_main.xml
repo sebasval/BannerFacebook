@@ -13,5 +13,25 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!2" />
+        android:text="Hello world!!"
+        android:id="@+id/tvUsuario"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp" />
+
+    <com.facebook.login.widget.ProfilePictureView
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imgProfile"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cerrar sesion"
+        android:layout_marginTop="29dp"
+        android:id="@+id/btonCerrarSesion"
+        android:layout_below="@+id/imgProfile"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
